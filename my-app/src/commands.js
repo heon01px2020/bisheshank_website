@@ -47,8 +47,7 @@ export const commands = {
     description: 'Get a link to my resume.',
     usage: 'resume',
     fn: () => {
-      // window.open('https://www.bisheshank.com/resume.pdf', '_blank', 'noopener,noreferrer');
-      window.open('https://www.linkedin.com/in/bisheshank/', '_blank', 'noopener,noreferrer');
+      window.open('https://www.bisheshank.com/resume.pdf', '_blank', 'noopener,noreferrer');
       return 'Opening resume...';
     }
   },
