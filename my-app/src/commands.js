@@ -47,7 +47,7 @@ export const commands = {
     description: 'Get a link to my resume.',
     usage: 'resume',
     fn: () => {
-      window.open('https://www.bisheshank.com/resume.pdf', '_blank');
+      window.open('https://www.bisheshank.com/resume.pdf', '_blank', 'noopener,noreferrer');
       return 'Opening resume...';
     }
   },
@@ -55,7 +55,7 @@ export const commands = {
     description: 'Get a link to my LinkedIn profile.',
     usage: 'linkedin',
     fn: () => {
-      window.open('https://www.linkedin.com/in/bisheshank/', '_blank');
+      window.open('https://www.linkedin.com/in/bisheshank/', '_blank', 'noopener,noreferrer');
       return 'Opening LinkedIn profile...';
     }
   },
@@ -63,7 +63,7 @@ export const commands = {
     description: 'Get a link to my GitHub profile.',
     usage: 'github',
     fn: () => {
-      window.open('https://www.github.com/bisheshank/', '_blank');
+      window.open('https://www.github.com/bisheshank/', '_blank', 'noopener,noreferrer');
       return 'Opening GitHub profile...';
     }
   },
