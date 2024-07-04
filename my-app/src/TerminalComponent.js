@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import Terminal from 'react-console-emulator';
 // import AutoComplete from './AutoComplete';
 import { commands } from './commands';
